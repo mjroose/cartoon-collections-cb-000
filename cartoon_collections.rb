@@ -13,10 +13,10 @@ def summon_captain_planet(elements)
 end
 
 def long_planeteer_calls(calls)
-  binding.pry
   long_words = calls.include? do |call|
     call.length > 4
   end
+  binding.pry
   long_words.length > 0 ? true : false
 end
 
